@@ -20,8 +20,8 @@ sudo make uninstall
 
 sudo pacman -Rcns gtk3 gobject-introspection-runtime cairo pango stack
 
-rm -rfv /usr/local/share/fonts
-rm -v /usr/share/licenses/ttf-comfortaa/LICENSE
+sudo rm -rfv /usr/local/share/fonts
+sudo rm -v /usr/share/licenses/ttf-comfortaa/LICENSE
 
 [ -f ~/.bashrc.bak ] && mv -v ~/.bashrc.bak ~/.bashrc || rm -v ~/.bashrc
 [ -f ~/.profile.bak ] && mv -v ~/.profile.bak ~/.profile || rm -v ~/.profile
