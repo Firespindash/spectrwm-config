@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S --needed asciidoc mesa
+sudo pacman -S --needed --noconfirm asciidoc mesa
 
 git clone https://github.com/tryone144/compton.git && cd compton/ || exit
 

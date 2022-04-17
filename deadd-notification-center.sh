@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S --needed gtk3 gobject-introspection-runtime cairo pango stack
+sudo pacman -S --needed --noconfirm gtk3 gobject-introspection-runtime cairo pango stack
 
 git clone https://github.com/phuhl/linux_notification_center.git && cd linux_notification_center/ || exit
 

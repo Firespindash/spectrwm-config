@@ -3,8 +3,7 @@
 sudo pacman -S --noconfirm --needed xlockmore alacritty falkon mpv thunar gedit \
 			gedit-plugins pacman-contrib polkit-qt5 xclip xdotool xwallpaper wmctrl
 
-yay -S --noconfirm --needed alttab-git polybar qview timeshift-bin \
-							 ttf-material-design-icons
+yay -S --noconfirm --needed alttab-git polybar qview timeshift-bin ttf-material-design-icons
 
 sourceIt () { echo $1; source $1; }; sourceIt ./compton.sh
 sourceIt ./deadd-notification-center.sh
