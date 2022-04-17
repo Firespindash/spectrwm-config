@@ -8,6 +8,8 @@ sleep 3
 sudo pacman -Rcns xlockmore alacritty falkon mpv thunar gedit gedit-plugins \
 			  pacman-contrib polkit-qt5 xclip xdotool xwallpaper wmctrl
 
+sudo pacman -Rcns python-pip
+
 yay -Rcns alttab-git polybar qview timeshift-bin ttf-material-design-icons
 
 git clone https://github.com/tryone144/compton.git && cd compton/ || exit
