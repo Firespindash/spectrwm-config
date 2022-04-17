@@ -23,8 +23,8 @@ sudo pacman -Rcns gtk3 gobject-introspection-runtime cairo pango stack
 rm -rfv /usr/local/share/fonts
 rm -v /usr/share/licenses/ttf-comfortaa/LICENSE
 
-[ -f ~/.bashrc.bak ] && cp -v ~/.bashrc.bak ~/.bashrc || rm -v ~/.bashrc
-[ -f ~/.profile.bak ] && cp -v ~/.profile.bak ~/.profile || rm -v ~/.profile
+[ -f ~/.bashrc.bak ] && mv -v ~/.bashrc.bak ~/.bashrc || rm -v ~/.bashrc
+[ -f ~/.profile.bak ] && mv -v ~/.profile.bak ~/.profile || rm -v ~/.profile
 [ -f ~/.config/fontconfig/fonts.conf.bak ] && \
 	mv -v ~/.config/fontconfig/fonts.conf.bak ~/.config/fontconfig/fonts.conf || \
 	rm -rfv ~/.config/fontconfig
