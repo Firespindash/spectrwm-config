@@ -1,8 +1,8 @@
 #!/bin/bash
 
-curl -Ls https://github.com/google/fonts/raw/4e6d978a7432514a9918b07863bb5280e7cc8815/ofl/comfortaa/Comfortaa-Bold.ttf
-curl -Ls https://github.com/google/fonts/raw/4e6d978a7432514a9918b07863bb5280e7cc8815/ofl/comfortaa/Comfortaa-Light.ttf
-curl -Ls https://github.com/google/fonts/raw/4e6d978a7432514a9918b07863bb5280e7cc8815/ofl/comfortaa/Comfortaa-Regular.ttf
+curl -Ls https://github.com/google/fonts/raw/4e6d978a7432514a9918b07863bb5280e7cc8815/ofl/comfortaa/Comfortaa-Bold.ttf -o Comfortaa-Bold.ttf
+curl -Ls https://github.com/google/fonts/raw/4e6d978a7432514a9918b07863bb5280e7cc8815/ofl/comfortaa/Comfortaa-Light.ttf -o Comfortaa-Light.ttf
+curl -Ls https://github.com/google/fonts/raw/4e6d978a7432514a9918b07863bb5280e7cc8815/ofl/comfortaa/Comfortaa-Regular.ttf -o Comfortaa-Regular.ttf
 curl -Ls https://github.com/google/fonts/raw/4e6d978a7432514a9918b07863bb5280e7cc8815/ofl/comfortaa/OFL.txt -o ttf-comfortaa-OFL.txt
 
 sudo install -dm 755 "/usr/local/share/fonts"
