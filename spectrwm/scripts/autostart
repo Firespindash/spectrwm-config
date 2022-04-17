@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Author: Firespindash
+# Date: Oct 19th, 2020
+# Version: 1.7
+
+mod=Super_L
+xwallpaper --output HDMI-0 --stretch ~/.config/spectrwm/wallpaper.jpg
+sleep 1
+compton -f &
+xdotool key $mod+Shift+r
