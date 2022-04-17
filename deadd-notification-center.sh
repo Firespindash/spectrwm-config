@@ -8,4 +8,4 @@ make
 sudo make install
 
 sudo pacman -Rcns stack
-cd .. && rm -rfv linux_notification_center/ 
+cd .. && rm -rf linux_notification_center/ 

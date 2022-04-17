@@ -20,7 +20,7 @@ sudo pacman -Rcns asciidoc mesa
 git clone https://github.com/phuhl/linux_notification_center.git && cd linux_notification_center/ || exit
 sudo make uninstall
 
-sudo pacman -Rcns gtk3 gobject-introspection-runtime cairo pango stack
+sudo pacman -Rcns gtk3 gobject-introspection-runtime cairo pango
 
 sudo rm -rfv /usr/local/share/fonts
 sudo rm -v /usr/share/licenses/ttf-comfortaa/LICENSE

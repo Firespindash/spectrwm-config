@@ -8,4 +8,4 @@ make
 make docs
 sudo make install
 
-cd .. && rm -rfv compton/
+cd .. && rm -rf compton/
