@@ -2,7 +2,7 @@
 
 This would be my environment if I didn't like desktops.
 
-It is a simple keyboard/terminal-driven environment with *spectrwm*. This would be my main environment if I didn't like to have a full desktop. It can be well integrated with other components, like the fullscreen app launcher, from my real main environment at [dotfiles](https://github.com/Firespindash/dotfiles). \
+It is a simple keyboard/terminal-driven environment with *spectrwm*. This would be my main environment if I didn't like to have a full desktop and used more tiling window managers. It can be well integrated with other components, like the fullscreen app launcher, from my real main environment at [dotfiles](https://github.com/Firespindash/dotfiles). \
 To install use the *install.sh* script. Make sure you have a backup of your previous spectrwm, polybar, and compton configs before using the script. \
 My version of an screenshot from [u/Harjuu](https://www.reddit.com/r/unixporn/comments/gcg0hh/spectrwm_first_post/) in *Manjaro*.
 ![Main Environment Screenshot](spectrwm.png)
@@ -10,31 +10,31 @@ Screenshot of the main environment with *Zathura*.
 ![Zathura Screenshot](zathura-spectrwm.png)
 ## Programs
 The table with the main programs in it:
-|                Type               |     Name    |
-|-----------------------------|:--------------:|
-|            Terminal            | *Alacritty* |
-|             Browser            |   *Falkon*  |
-|         Video Player        |     *mpv*    |
-|        File Manager        |  *thunar*  |
-| Graphical Text Editor |    *gedit*   |
-|        Image Viewer        |   *qview*   |
-|       Screen Locker       |    *xlock*   |
+|          Type         |     Name    |
+|-----------------------|:-----------:|
+|        Terminal       | *Alacritty* |
+|         Browser       |  *Falkon*   |
+|      Video Player     |    *mpv*    |
+|      File Manager     |  *thunar*   |
+| Graphical Text Editor |   *gedit*   |
+|      Image Viewer     |   *qview*   |
+|     Screen Locker     |   *xlock*   |
 
 These are the same programs that I use in my real environment, except *xlock*. And all these, and others, are necessary for it to work properly.
 ## Shortcuts
 Main shortcuts:
-|                                Function                              |         Keybind         |
-|----------------------------------------------------------|:-----------------------:|
-|                            Opens Menu                           |        Super+p         |
-|                           Moves Window                         | Super+Control+z |
-|                          Resizes Window                        | Super+Control+x  |
-|                             Kills Window                           |          Super+x        |
-|                      Toggles Float State                      |          Super+t        |
-|                       Toggles Fullscreen                      |          Super+e        |
-|                Changes Workspace (1-4)                  |       Super+1...4       |
-|                                 Restart                                |          Super+q       |
-|                                 Logout                                |    Super+Shift+q   |
-| Switchs between *spectrbar* and *polybar* |    Super+Shift+b   |
+|                  Function                 |     Keybind     |
+|-------------------------------------------|:---------------:|
+|                 Opens Menu                |     Super+p     |
+|                Moves Window               | Super+Control+z |
+|               Resizes Window              | Super+Control+x |
+|                Kills Window               |     Super+x     |
+|            Toggles Float State            |     Super+t     |
+|             Toggles Fullscreen            |     Super+e     |
+|          Changes Workspace (1-4)          |   Super+1...4   |
+|                  Restart                  |     Super+q     |
+|                   Logout                  |  Super+Shift+q  |
+| Switchs between *spectrbar* and *polybar* |  Super+Shift+b  |
 
 Most of the other keybinds are vim-like, common in other WMs. I just can't get easily used to them.
 ## Details
