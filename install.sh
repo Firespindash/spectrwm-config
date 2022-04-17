@@ -12,8 +12,13 @@ sourceIt ./ttf-comfortaa.sh; sourceIt ./wallpaper.sh
 
 [ -f ~/.bashrc ] && cp -v ~/.bashrc ~/.bashrc.bak
 [ -f ~/.profile ] && cp -v ~/.profile ~/.profile.bak
-cp -v bashrc ~/.bashrc
-cp -v profile ~/.profile
+[ -f ~/.config/fontconfig/fonts.conf ] && \
+	cp -v ~/.config/fontconfig/fonts.conf ~/.config/fontconfig/fonts.conf.bak || \
+	mkdir ~/.config/fontconfig/
+
+\cp -v bashrc ~/.bashrc
+\cp -v profile ~/.profile
+\cp -v fonts.conf ~/.config/fontconfig/
 
 cp -rv bin/ ~/
 
