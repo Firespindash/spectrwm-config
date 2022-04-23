@@ -14,11 +14,13 @@ yay -Rcns alttab-git polybar qview timeshift-bin ttf-material-design-icons
 
 git clone https://github.com/tryone144/compton.git && cd compton/ || exit
 sudo make uninstall
+cd ../ && rm -rfv compton
 
 sudo pacman -Rcns asciidoc mesa
 
 git clone https://github.com/phuhl/linux_notification_center.git && cd linux_notification_center/ || exit
 sudo make uninstall
+cd ../ && rm -rfv linux_notification_center
 
 sudo pacman -Rcns gtk3 gobject-introspection-runtime cairo pango
 
@@ -34,3 +36,6 @@ sudo rm -v /usr/share/licenses/ttf-comfortaa/LICENSE
 rm -rfv ~/bin ~/.config/spectrwm ~/.config/polybar
 
 echo "You should have xterm installed, if you want to do things with x11, depending on the thing."
+
+cd ../
+rm -rfv spectrwm-config
