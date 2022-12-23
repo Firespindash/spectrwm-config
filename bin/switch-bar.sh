@@ -7,7 +7,7 @@ mod=Super_L   # Mod4
 [ $(ps -aux | grep polybar | wc -l) -ge 2 ] && bar=2 || bar=1
 
 reload () {
-	xdotool key $mod+q
+    xdotool key $mod+q
 }
 
 gen () {
@@ -15,7 +15,7 @@ gen () {
 [ "$1" == "spectr" ] && { enable=1; comment="# "; }
 [ "$1" == "polybar" ] && { enable=0; comment=""; }
 
-	cat << EOF > ~/.config/spectrwm/spectrwm.conf
+    cat << EOF > ~/.config/spectrwm/spectrwm.conf
 # NOTE: all rgb color values in this file are in hex! see XQueryColor for examples
 
 workspace_limit		= 4
@@ -302,13 +302,13 @@ EOF
 
 if [ $bar == 1 ]
 then
-	source .config/polybar/launch.sh &
-	gen polybar
+    source .config/polybar/launch.sh &
+    gen polybar
 fi
 if [ $bar == 2 ]
 then
-	killall polybar
-	gen spectr
+    killall polybar
+    gen spectr
 fi
 
 sleep 0.5

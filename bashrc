@@ -15,5 +15,5 @@ wal -Rnq
 # Enabling alttab here, because of .xprofile bug
 switcher=$(pgrep -U 1000 "^alttab")
 if [ -z $switcher ]; then
-	nohup alttab -font "xft:Terminus:pixelsize=18" -i 96x96 -frame "#475846" -bg "#111212" -fg "#b0b9ac" >& /dev/null &
+    nohup alttab -font "xft:Terminus:pixelsize=18" -i 96x96 -frame "#475846" -bg "#111212" -fg "#b0b9ac" >& /dev/null &
 fi
