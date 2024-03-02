@@ -1,0 +1,25 @@
+[cursor.style]
+blinking = "Always"
+shape = "Underline"
+
+[font]
+size = 18
+
+[font.bold]
+family = "monospace"
+style = "Bold"
+
+[font.italic]
+family = "monospace"
+style = "Italic"
+
+[font.normal]
+family = "monospace"
+style = "Regular"
+
+[window]
+opacity = 0.8
+
+[window.dimensions]
+columns = 132
+lines = 24
